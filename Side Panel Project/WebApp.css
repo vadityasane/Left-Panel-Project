@@ -1,0 +1,52 @@
+  /* CSS for the overall layout */
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+  }
+
+  /* CSS for left panel */
+  .left-panel {
+      width: 200px;
+      height: 100vh;
+      background-color: #333;
+      float: left;
+  }
+
+  /* CSS for component links */
+  .component-link {
+      display: block;
+      padding: 15px 20px;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  }
+
+  .component-link:hover {
+      background-color: #444;
+  }
+
+  /* CSS for active component link */
+  .active {
+      background-color: #555;
+  }
+
+  /* CSS for content area */
+  .content-area {
+      margin-left: 200px;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .content-title {
+      color: #333;
+      margin-top: 0;
+      margin-bottom: 20px;
+  }
+
+  .content-text {
+      color: #555;
+      line-height: 1.5;
+  }
